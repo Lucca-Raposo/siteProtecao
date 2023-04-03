@@ -1,0 +1,38 @@
+@font-face {
+    font-family: berlinSans;
+    src: url(../../../public/fonts/BerlinSansFBDemiBold.ttf);
+}
+
+.navbar-container{
+    background-image: linear-gradient(to right, #FF6700, #F79400);
+    display: flex;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw 0 3vw;
+}
+
+.nav-button{
+    font-family: berlinSans;
+    font-size: 2vh;
+    padding-bottom: 0.5vh;
+    color: white;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-bottom: solid 2px transparent;
+}
+
+.nav-button:hover{
+    transition: 300ms;
+    border-bottom: solid 2px white;
+}
+
+.logo-container{
+    display: flex;
+}
+
+.logo{
+    height: 5vh;
+}

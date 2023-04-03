@@ -1,0 +1,58 @@
+.banner-container{
+    display: flex;
+    height: 40vh;
+    background-image: url(../../../public/images/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    border-bottom: 0.5vh solid #FF6700;
+    box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.banner-buttons-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    align-items:flex-start;
+    justify-content: center;
+    margin-left: 6vw;
+}
+
+.banner-button{
+    font-family: berlinSans;
+    background: 
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(to right, #FF6700, #F79400) border-box;
+    color: #FF6700;
+    padding: 1vw;
+    margin: 3vh 0;
+    border: 5px solid transparent;
+    border-radius: 40px;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+.banner-button:hover{
+    color: white;
+    background: 
+        linear-gradient(to right, #FF6700, #F79400) padding-box,
+        linear-gradient(to right, #FF6700, #F79400) border-box;
+    cursor: pointer;
+    transition: 1000ms;
+}
+
+#button-number{
+    font-size: 1.7vw;
+}
+
+.banner-image-container{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.homedog{
+    height: 42vh;
+}
